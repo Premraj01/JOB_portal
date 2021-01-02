@@ -18,9 +18,7 @@ const ProfileScreen = ({ match }) => {
 
   return (
     <Container className='mt-2'>
-      <Link to='/'>
-        <button className='btn btn-outline-primary ml-5'>Go back</button>
-      </Link>
+      <h2>Candidate Profile:</h2> <hr />
       <Card className='profile-card'>
         <img
           className='card-img-top'

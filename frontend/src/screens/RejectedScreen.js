@@ -17,7 +17,7 @@ const RejectedScreen = () => {
 
   return (
     <>
-      {' '}
+      <h2>Rejected Applications:</h2> <hr />
       <Row>
         {candidatesStatus.map((candidate) => (
           <Col md={4} className='mt-5' key={candidate._id}>

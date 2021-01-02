@@ -17,6 +17,7 @@ const MainScreen = ({ match }) => {
   }, [dispatch, keyword])
   return (
     <>
+      <h2>Candidate Applications:</h2> <hr />
       <Row>
         {candidates.map((candidate) => (
           <Col md={4} className='mt-5' key={candidate._id}>

@@ -17,6 +17,7 @@ const ShortlistedScreen = () => {
 
   return (
     <>
+      <h2>Shortlisted Applications:</h2> <hr />
       <Row>
         {candidatesStatus.map((candidate) => (
           <Col md={4} className='mt-5' key={candidate._id}>
