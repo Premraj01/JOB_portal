@@ -40,7 +40,7 @@ export const getCandidateList = (keyword = '', status = '') => async (
 export const getCandidateStatus = (status) => async (dispatch) => {
   try {
     dispatch({ type: CANDIDATE_STATUS_LIST_REQUEST })
-    console.log(status)
+
     const { data } = await axios.get(`/api/candidates/status/${status} `)
     dispatch({
       type: CANDIDATE_STATUS_LIST_SUCCESS,

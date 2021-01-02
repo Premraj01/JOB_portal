@@ -1,11 +1,10 @@
 /** @format */
 
-import React, { useState } from 'react'
+import React from 'react'
 import { LinkContainer } from 'react-router-bootstrap'
 import { Nav } from 'react-bootstrap'
 
 const CandidateStatus = () => {
-  const [status, setStatus] = useState('')
 
   return (
     <Nav className='ml-auto'>

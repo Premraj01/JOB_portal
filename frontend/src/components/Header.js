@@ -1,7 +1,7 @@
 /** @format */
 
-import React, { Fragment } from 'react'
-import { Container, Navbar, Nav, Form } from 'react-bootstrap'
+import React from 'react'
+import { Container, Navbar } from 'react-bootstrap'
 import { Link, Route } from 'react-router-dom'
 import Searchbox from './Searchbox'
 import Candidate from './CandidateStatus'

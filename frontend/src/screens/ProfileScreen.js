@@ -3,7 +3,7 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { getCandidateById, updateCandidate } from '../actions/candidateActions'
-import { Card, Row, Col, Container, Button } from 'react-bootstrap'
+import { Card, Row, Col, Container } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
 const ProfileScreen = ({ match }) => {
@@ -14,7 +14,7 @@ const ProfileScreen = ({ match }) => {
 
   useEffect(() => {
     dispatch(getCandidateById(match.params.id))
-  }, [dispatch])
+  }, [dispatch, match])
 
   return (
     <Container className='mt-2'>

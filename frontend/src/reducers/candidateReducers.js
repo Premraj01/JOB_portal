@@ -29,7 +29,7 @@ export const candidateListReducer = (state = { candidates: [] }, action) => {
 }
 
 export const candidateStatusListReducer = (
-  state = { candidates: [] },
+  state = { candidatesStatus: [] },
   action
 ) => {
   switch (action.type) {
